@@ -354,6 +354,7 @@ margin-right: 40px;
     margin-right: 24px;
     margin-bottom: 48px;
     border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio .item.flex:nth-child(3n) {
@@ -366,7 +367,7 @@ margin-right: 40px;
 .item.flex:hover,
 .item.flex:focus
  {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     cursor: pointer;
 }
 
