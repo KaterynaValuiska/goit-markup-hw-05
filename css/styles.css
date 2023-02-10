@@ -251,14 +251,11 @@ transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.portfolio-products:hover::before,
-.portfolio-products:focus::before {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.portfolio-products:hover .products-cards,
-.portfolio-products:focus .products-cards {
+.link-products:hover .products-cards,
+.link-products:focus .products-cards,
+.link-products:hover .portfolio-products::before,
+.link-products:focus .portfolio-products::before
+ {
     opacity: 1;
     transform: translateY(0);
 }
